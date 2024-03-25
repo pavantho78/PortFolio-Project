@@ -1,0 +1,197 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+
+html{
+ scroll-behavior:smooth;
+}
+/*-----------HOME SECTION------------*/
+body{
+background-color:black;
+color:#fff;
+}
+
+#header{
+width:100%;
+ height:100vh;
+background-image:url("/image/My project.png");
+background-size:500px 600px ;
+background-position:center;
+background-repeat:no-repeat;
+
+}
+
+.navbar-inverse{
+   height:50px;
+   padding-left:40px;
+}
+.N{
+ color:red;
+}
+
+.navbar-header a{  
+  margin:auto;
+  font-size:40px;
+  color:yellowgreen;
+ 
+}
+
+.navbar-right{
+padding-right:200px;
+font-size:20px ;
+}
+
+.header-text{
+   margin-top:200px;
+   padding-right:300px;
+   margin-right:400px;
+
+}
+
+span{
+color:red;
+}
+
+.header-text p{
+  font-size:20px;
+}
+
+.header-text h1{
+  font-size:40px;
+}
+
+.mar{
+ font-size:x-large;
+ color:greenyellow;
+}
+/*---------ABOUT SECTION---------*/
+
+
+img{
+float:left;
+margin-left:200px;
+
+}
+
+.about{
+font-size:large ;
+}
+
+.h{
+margin-top:90px;
+color:red;
+}
+
+/*----------MY SKILLS SECTION----------*/
+
+.tab-contents{
+display:none;
+}
+
+
+.tab-contents.Boom{
+list-style-type:none;
+
+}
+
+.su{
+font-size:x-large;
+color:greenyellow;
+}
+
+.Skills{
+padding-top:150px;
+color:red;
+text-decoration-color:red;
+padding-bottom:130px;
+}
+
+ul li{
+text-style-type:none;
+display:inline;
+
+}
+
+ul li img{
+margin-left:240px;
+}
+
+ol li{
+text-style-type:none;
+text-decoration:none;
+display:inline;
+margin-left:260px;
+font-size:20px;
+}
+.crack{
+font-size:x-large;
+color:greenyellow;
+
+}
+
+.s{
+padding-left:15px;
+
+}
+.u{
+padding-left:38px;
+}
+.n{
+padding-left:28px;
+}
+.T{
+padding-left:5px;
+}
+
+/*-------------CONTACT SECTION--------------*/
+.C{
+margin-bottom:80px;
+font-size:xx-large;
+color:red;
+}
+.info{
+font-size:20px;
+color:yellow;
+margin-left:180px;
+}
+
+
+.form{
+float:right;
+margin-top:-300px;
+margin-right:220px;
+color:yellowgreen;
+}
+.sub{
+background-color:yellowgreen;
+color:red;
+height:30px;
+width:90px;
+}
+#msg{
+color:red;
+font-size:18px;
+
+}
+
+#field{
+height:30px;
+
+}
+.out{
+color:darkred;
+background-color:lightyellow;
+font-size:15px;
+}
+.copy{
+margin-right:310px;
+color:yellow;
+font-size:x-large;
+}
+
+.full{
+color:red;
+}

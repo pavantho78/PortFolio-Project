@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Project</title>
+	<link rel="stylesheet" 
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/
+bootstrap.min.css">
+ <script 
+src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+ <script 
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <link rel="stylesheet" href="Index.css">
+</head>
+<body> 
+<!--------HOME SECTION------------->
+<div id="header">
+<div class="container"></div>
+<nav class="nav navbar-default navbar-inverse">
+	 <div class="container-fluid">
+	 <div class="navbar navbar-header">
+       <a href="#" class="navbar-brand"><span class="N">Pav</span>an.</a></div>
+         <ul class="nav navbar-nav navbar-right">
+         	<li><a href="#header">Home</a></li>
+         	<li><a href="#About Section">About Me</a></li>
+         	<li><a href="#sk">My Skills</a></li>
+         	<li><a href="#Contact">Contact</a></li>	
+          </ul>
+	</nav>
+	<center>
+  	  <div class="header-text">
+  	  	<p>Software Engineer</p>
+  	  	<h1>Hi,I'm <span>Pavan</span><br> Thorat From India</h1>
+       <a href ="/image/CV.pdf" class="btn btn-success" download>Download CV</a>
+  	  </div> 
+  	  </center>  
+  </div>
+</div><marquee behavior="alternate" class="mar">ASPIRING SOFTWARE ENGINEER</marquee>
+<hr>
+<!--------About Section----------->
+    <div id="About Section">
+     <img src="/image/My Image.png">
+     <center><h1 class="h">ABOUT ME</h1>
+     <p class="about"><i>Hello,I'm Pavan Thorat From Maharashtra,India.
+               Recently,I'm Graduated from Pune University with BE Degree in Mechanical Specialisation with 9.13 Cgpa.
+               Talking about my schooling,I got 83% and 73% in 10th and 12th class respectively.
+               Currently,I'm pursuing Software Testing with Java Industrial Training at Pentagon Space pvt. ltd Bangalore.
+               My passionate about Techonology,So that's why switch to this field.Right Now, I'm looking for opportunity as Fresher job profile
+               where i can utiilize my skills in the growth of organisation perspective as well as My career Perspective.
+            </i> </p>
+       </center><br>
+
+<!----------My Education----------->
+   <div id="tab-titles">
+   	  <center><button type="button" name="button" data-toggle="collapse" data-target="#LearMore" id="edu" class="btn btn-success"><p class="tab-links active-link">MY EDUCATION</p>
+   	  </button></center>
+   </div>
+   <div class="tab-contents active-tab" id="LearMore" class="collapse" disabled>
+   	<ul>
+   	  <li><span>2022-2023</span><br>Software Testing With Java Training at 
+   	  	  Pentagon Space Pvt.Ltd,Bangalore</li><br>
+   	  <li><span>2018-2022</span><br>Bachlore of Engineering in Mechanical Specialisation at 
+   	  	   Savitribai Phule Pune university,Pune</li><br>
+   	  <li><span>2016-2018</span><br>11th & 12th class at Pratap College Amalner,Jalgoan under Maharahstra 
+   	  	 state Board of Education</li><br>
+   	  <li><span>2015-2016</span><br>10th class at New English School Fattepur,Jalgoan</li>
+   	</ul>
+   </div>
+</div><marquee behavior="alternate" class="su">ABOUT ME</marquee><hr>
+
+<!---------My Skills------------>
+   <div class="Skills" id="sk">
+   <center><div><h1>MY SKILLS</h1></div></center><br><br>
+   <ol>
+   	<li>HTML</li>
+   	<li class="s">CSS</li>
+    <li class="u">JS</li>
+    <li class="n">BootStrap</li>
+    </ol>
+    <ul>
+     <li class="p"><img src="/image/HTML.png" width="90" height="110"></li>
+     <li class="p"><img src="/image/CSS.png" width="90" height="110"></li>
+     <li class="p"><img src="/image/JS.png" width="110" height="110"></li>
+     <li class="p"><img src="/image/Boot.png" width="90" height="110"></li>
+      </ul><br><br>
+     <ul>
+     	<li><img src="/image/Java.png" width="90" height="110"></li>
+     	<li><img src="/image/SQL.png" width="90" height="110"></li>
+     	<li><img src="/image/SEL.png" width="90" height="110"></li>
+     	<li><img src="/image/HUB.png" width="90" height="110"></li>
+     </ul>
+      <ol>
+   	<li>JAVA</li>
+   	<li class="s">SQL</li>
+    <li class="T">SELENIUM</li>
+    <li class="H">GITHUB</li>
+    </ol>
+   </div><marquee behavior="alternate" class="crack">MY SKILLS</marquee><hr>
+
+ <!-------------contact---------------->
+ <div id="Contact">
+    <center><div class="C">CONTACT</div></center>
+    <div class="info">EMAIL:<p>contact@example.com</p>
+    MOBILE NO:<p>9988776655</p></div>
+    	<ul><br><br>
+    	<a href="#"><img class="one" src="/image/LINKED.png" width="30" height="30"></a><br><br><br>
+    	<a href="#"><img class="one" src="/image/twitter.png" width="30" height="30"></a><br><br><br>
+    	<a href="#"><img class="one" src="/image/Instagram.png" width="30" height="30"></a>
+    </ul>
+ </div>
+ <!-----------form------------>
+   <div class="form">
+   	 <center>
+   	<form name="submit-to-google-sheet"><caption>CONTACT ME</caption><br><br>
+     <input type="text" name="Name" size="70" maxlength="30" placeholder="Enter your valid name" class="out" id="field" required><br><br>
+    <input type="email" name="Email" size="70" maxlength="30" placeholder="Enter your valid email" class="out" id="field" required><br><br>
+       <textarea rows="6" name="Message" cols="73" placeholder="Enter your message" class="out"></textarea><br><br>
+       <input class="sub" type="submit" onclick="msg()">
+
+   	</form><span id="msg"></span> <br><br>
+ <!-----------footer--------->
+   	<div>
+   	<center>
+   		<p class="copy">Copyright @<span class="full">Pav</span>an. made with Love</p>
+</center>
+   	</div>
+ <!-----------SCRIPT-------------> 
+<script type="text/javascript" src="index.js">
+</script>
+
+</body>
+</html>
